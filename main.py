@@ -461,7 +461,7 @@ def ciclo_transmision():
                     "audio": audio,
                     "broadcast_id": stream_info['broadcast_id'],
                     "stream_id": stream_info['stream_id'],
-                    "end_time": stream_info['scheduled_start'] + timedelta(hours=24)
+                    "end_time": stream_info['scheduled_start'] + timedelta(hours=8)
                 }
 
                 threading.Thread(
