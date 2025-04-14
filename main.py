@@ -93,26 +93,22 @@ class GestorContenido:
             temp_path = os.path.join(self.media_cache_dir, f"temp_{nombre_hash}.mp3")
             
             with requests.get(url, stream=True, timeout=30) as r:
-             r.raise_for_status()
-            with open(ruta_local, 'wb') as f:
-                for chunk in r.iter_content(chunk_size=8192):
-                    f.write(chunk)
-        
-        # Validar integridad del video
-            validation = subprocess.run(
-            ["ffprobe", "-v", "error", "-show_format", ruta_local],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.PIPE
-                      )
-            if validation.returncode != 0:
-               os.remove(ruta_local)
-               raise Exception(f"Video inválido: {validation.stderr.decode()}")
-        
-            return ruta_local 
+                r.raise_for_status()
+                with open(temp_path, 'wb') as f:
+                    for chunk in r.iter_content(chunk_size=8192):
+                        if chunk:
+                            f.write(chunk)
+            
+            subprocess.run([
+                "ffmpeg", "-y", "-i", temp_path,
+                "-acodec", "pcm_s16le", "-ar", "44100", "-ac", "2",
+                ruta_local
+            ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            
+            os.remove(temp_path)
+            return ruta_local
         except Exception as e:
-            if os.path.exists(ruta_local):
-             os.remove(ruta_local)
-            logging.error(f"Error procesando video: {str(e)}")
+            logging.error(f"Error procesando audio: {str(e)}")
             return None
 
     def cargar_medios(self):
@@ -406,12 +402,6 @@ def manejar_transmision(stream_data, youtube):
         if not stream_activo:
             logging.error("❌ Stream no se activó a tiempo")
             proceso.kill()
-            youtube.finalizar_transmision(stream_data['broadcast_id'])
-            youtube.youtube.liveStreams().delete(id=stream_data['stream_id']).execute()
-    
-    # Eliminar archivo corrupto
-        if os.path.exists(stream_data['video']['local_path']):
-            os.remove(stream_data['video']['local_path'])
             return
         
         tiempo_restante = (stream_data['start_time'] - datetime.utcnow()).total_seconds()
