@@ -180,7 +180,7 @@ class YouTubeManager:
                 body={
                   "snippet": {
                   "title": titulo,
-                  "description": "Déjate llevar por la serenidad de la naturaleza con nuestro video Desde Relax Station. Los relajantes sonidos de la lluvia te transportarán a un lugar de paz y tranquilidad, ideal para dormir, meditar o concentrarte. Perfecto para desconectar y encontrar tu equilibrio interior. ¡Relájate y disfruta! 🔔💤🛏️\n \n📲 Spotify: \n\n hhttps://open.spotify.com/intl-es/artist/7J4Rf0Q97OcDjg3kmBXSRj \n\n Instagram: http://instagram.com/@desderelaxstation \n \nFacebook: https://www.facebook.com/people/Desde-Relax-Station/61574709615178/ \n \n TikTok: https://www.tiktok.com/@desderelaxstation\n \n🚫IGNORAR TAGS DesdeRelaxStation, relajación, lluvia, sonidos de lluvia, calma, dormir, meditar, concentración, sonidos de la naturaleza, ambiente relajante, tranquilidad, lluvia para dormir, lluvia relajante, lluvia y calma, sonidos para relajación, ASMR, sonidos ASMR, lluvia nocturna, estudio, sonidos relajantes, ruido blanco, concentración mental, paz interior, alivio del estrés, lluvia natural, lluvia suave, descanso, ambiente de lluvia, dormir rápido, lluvia profunda, día lluvioso, lluvia para meditar, bienestar, paz, naturaleza, mindfulness, relajación profunda, yoga, pilates, meditación guiada, ondas cerebrales, sonidos curativos, música para estudiar, música para concentración, descanso mental, serenidad, zen, armonía, equilibrio, espiritualidad, relajación total, energía positiva, lluvia tibia, tormenta suave, lluvia con truenos, descanso absoluto, terapia de sonido, bienestar emocional, salud mental, terapia de relajación, descanso nocturno, paz mental, sonidos de la selva, sonidos de bosque, mindfulness y relajación, mejor sueño, descanso profundo, liberación de estrés, antiestrés, antiansiedad, dormir mejor, sueño reparador, relajación sensorial, relajación auditiva, calma mental, música relajante, relajación para ansiedad, terapia de paz, sonido blanco para dormir, relax absoluto, serenidad de la naturaleza, sonidos calmantes, música tranquila para dormir, estado zen, enfoque mental, concentración absoluta, claridad mental, noche lluviosa, sonido de la lluvia, sonido de lluvia para dormir, tranquilidad nocturna, música chill, descanso consciente, relajación instantánea, serenidad para el alma, limpieza mental, vibraciones relajantes, energía relajante, conexión con la naturaleza, descanso espiritual, introspección, desconexión del estrés, flujo de energía positiva, alivio de tensiones, sonidos puros, alivio de fatiga, contemplación, vibraciones positivas, terapia sonora, sonidos calmantes para niños, calma en la tormenta, dormir sin interrupciones, música de fondo tranquila, ambiente natural, relax, relaxation, rain, rain sounds, calm, sleep, meditate, focus, nature sounds, relaxing ambiance, tranquility, rain for sleep, relaxing rain, rain and calm, sounds for relaxation, ASMR, ASMR sounds, nighttime rain, study, relaxing sounds, white noise, mental focus, inner peace, stress relief, natural rain, soft rain, rest, rain ambiance, deep rain, rainy day, rain for meditation, wellness, peace, stress, nature, mindfulness, deep relaxation, yoga, pilates, guided meditation, brain waves, healing sounds, music for studying, music for concentration, mental rest, serenity, zen, harmony, balance, spirituality, total relaxation, positive energy, warm rain, gentle storm, rain with thunder, absolute rest, sound therapy, emotional well-being, mental health, relaxation therapy, nighttime rest, jungle sounds, forest sounds, baby sounds, pet sounds, mindfulness and relaxation, relaxation before sleep, better sleep, deep rest, stress relief, anti-stress, anti-anxiety, sleep better, restorative sleep, sensory relaxation, mental calm, relaxing music, background relaxing rain, relaxing background music, natural sounds, mental harmonization, relaxing noise, natural relaxing sounds, deep relaxation music, relaxed mind, relaxation for anxiety, peace therapy, absolute rest, sound well-being, relaxed concentration, mental balance, white noise for sleeping, absolute relax, calm mind, total serenity, secured rest, rain audio, rain sounds with music, rainy night, nature serenity, calming sounds, quiet music for sleeping, zen state, energetic balance, meditation and focus, mental sharpness, absolute concentration, improved concentration, mental clarity, music and rain, harmony and balance, sound of rain, nighttime tranquility, chill music, mindful rest, instant relaxation, soul serenity, mental cleansing, soft music, relaxing energy, connection with nature, relaxation frequency, brain rest, sound peace, introspection, stress disconnection, positive energy flow, tension relief, mental detox, pure sounds, fatigue relief, full serenity, contemplation, positive vibes, sound therapy, calming sounds for kids, uninterrupted sleep, quiet background music, natural ambiance..",
+                  "description": "Déjate llevar por la serenidad de la naturaleza con nuestro video Desde Relax Station. Los relajantes sonidos de la lluvia te transportarán a un lugar de paz y tranquilidad, ideal para dormir, meditar o concentrarte. Perfecto para desconectar y encontrar tu equilibrio interior. ¡Relájate y disfruta! 🔔💤🛏️ \n\n📲 Spotify: https://open.spotify.com/intl-es/artist/7J4Rf0Q97OcDjg3kmBXSRj \n\n Instagram: http://instagram.com/@desderelaxstation \n \nFacebook: https://www.facebook.com/people/Desde-Relax-Station/61574709615178/ \n \n TikTok: https://www.tiktok.com/@desderelaxstation\n \n🚫IGNORAR TAGS DesdeRelaxStation, relajación, lluvia, sonidos de lluvia, calma, dormir, meditar, concentración, sonidos de la naturaleza, ambiente relajante, tranquilidad, lluvia para dormir, lluvia relajante, lluvia y calma, sonidos para relajación, ASMR, sonidos ASMR, lluvia nocturna, estudio, sonidos relajantes, ruido blanco, concentración mental, paz interior, alivio del estrés, lluvia natural, lluvia suave, descanso, ambiente de lluvia, dormir rápido, lluvia profunda, día lluvioso, lluvia para meditar, bienestar, paz, naturaleza, mindfulness, relajación profunda, yoga, pilates, meditación guiada, ondas cerebrales, sonidos curativos, música para estudiar, música para concentración, descanso mental, serenidad, zen, armonía, equilibrio, espiritualidad, relajación total, energía positiva, lluvia tibia, tormenta suave, lluvia con truenos, descanso absoluto, terapia de sonido, bienestar emocional, salud mental, terapia de relajación, descanso nocturno, paz mental, sonidos de la selva, sonidos de bosque, mindfulness y relajación, mejor sueño, descanso profundo, liberación de estrés, antiestrés, antiansiedad, dormir mejor, sueño reparador, relajación sensorial, relajación auditiva, calma mental, música relajante, relajación para ansiedad, terapia de paz, sonido blanco para dormir, relax absoluto, serenidad de la naturaleza, sonidos calmantes, música tranquila para dormir, estado zen, enfoque mental, concentración absoluta, claridad mental, noche lluviosa, sonido de la lluvia, sonido de lluvia para dormir, tranquilidad nocturna, música chill, descanso consciente, relajación instantánea, serenidad para el alma, limpieza mental, vibraciones relajantes, energía relajante, conexión con la naturaleza, descanso espiritual, introspección, desconexión del estrés, flujo de energía positiva, alivio de tensiones, sonidos puros, alivio de fatiga, contemplación, vibraciones positivas, terapia sonora, sonidos calmantes para niños, calma en la tormenta, dormir sin interrupciones, música de fondo tranquila, ambiente natural, relax, relaxation, rain, rain sounds, calm, sleep, meditate, focus, nature sounds, relaxing ambiance, tranquility, rain for sleep, relaxing rain, rain and calm, sounds for relaxation, ASMR, ASMR sounds, nighttime rain, study, relaxing sounds, white noise, mental focus, inner peace, stress relief, natural rain, soft rain, rest, rain ambiance, deep rain, rainy day, rain for meditation, wellness, peace, stress, nature, mindfulness, deep relaxation, yoga, pilates, guided meditation, brain waves, healing sounds, music for studying, music for concentration, mental rest, serenity, zen, harmony, balance, spirituality, total relaxation, positive energy, warm rain, gentle storm, rain with thunder, absolute rest, sound therapy, emotional well-being, mental health, relaxation therapy, nighttime rest, jungle sounds, forest sounds, baby sounds, pet sounds, mindfulness and relaxation, relaxation before sleep, better sleep, deep rest, stress relief, anti-stress, anti-anxiety, sleep better, restorative sleep, sensory relaxation, mental calm, relaxing music, background relaxing rain, relaxing background music, natural sounds, mental harmonization, relaxing noise, natural relaxing sounds, deep relaxation music, relaxed mind, relaxation for anxiety, peace therapy, absolute rest, sound well-being, relaxed concentration, mental balance, white noise for sleeping, absolute relax, calm mind, total serenity, secured rest, rain audio, rain sounds with music, rainy night, nature serenity, calming sounds, quiet music for sleeping, zen state, energetic balance, meditation and focus, mental sharpness, absolute concentration, improved concentration, mental clarity, music and rain, harmony and balance, sound of rain, nighttime tranquility, chill music, mindful rest, instant relaxation, soul serenity, mental cleansing, soft music, relaxing energy, connection with nature, relaxation frequency, brain rest, sound peace, introspection, stress disconnection, positive energy flow, tension relief, mental detox, pure sounds, fatigue relief, full serenity, contemplation, positive vibes, sound therapy, calming sounds for kids, uninterrupted sleep, quiet background music, natural ambiance..",
                   "scheduledStartTime": scheduled_start.isoformat() + "Z"
                      },
                     "status": {
@@ -300,11 +300,11 @@ def seleccionar_audio_compatible(gestor, categoria_video):
 
 def generar_titulo(nombre_video, categoria):
     ubicaciones = {
-        'departamento': ['Departamento Acogedor', 'Loft Moderno', 'Ático con Vista', 'Estudio Minimalista'],
-        'cabaña': ['Cabaña en el Bosque', 'Refugio Montañoso', 'Chalet de Madera', 'Cabaña junto al Lago'],
-        'cueva': ['Cueva Acogedor', 'Gruta Acogedora', 'Cueva con Chimenea', 'Casa Cueva Moderna'],
-        'selva': ['Cabaña en la Selva', 'Refugio Tropical', 'Habitación en la Jungla', 'Casa del Árbol'],
-        'default': ['Entorno Relajante', 'Espacio Zen', 'Lugar de Paz', 'Refugio Natural']
+        'departamento': ['Apartamento Premium', 'Loft de Diseño', 'Penthouse Exclusivo', 'Estudio Creativo'],
+        'cabaña': ['Refugio de Montaña', 'Cabaña Premium', 'Chalet de Ensueño', 'Cabaña con Vista al Bosque'],
+        'cueva': ['Cueva de Lujo', 'Gruta Privada', 'Residencia en la Roca', 'Habitación en la Montaña'],
+        'selva': ['Eco-Residencia', 'Bungalow Tropical', 'Suite en la Jungla', 'Villa Exótica'],
+        'default': ['Retiro Exclusivo', 'Espacio Premium', 'Refugio de Lujo', 'Hábitat Natural']
     }
     
     ubicacion_keys = {
@@ -315,14 +315,16 @@ def generar_titulo(nombre_video, categoria):
     }
     
     actividades = [
-        ('Dormir', '🌙'), ('Estudiar', '📚'), ('Meditar', '🧘♂️'), 
-        ('Trabajar', '💻'), ('Desestresarse', '😌'), ('Concentrarse', '🎯')
+        ('Dormir Profundamente', '😴'), ('Estudiar con Concentración', '📖'), ('Meditación Profunda', '🧘'), 
+        ('Trabajar en Paz', '💼'), ('Aliviar el Estrés', '🧠'), ('Encontrar tu Zen', '🌸'),
+        ('Relajación Total', '🛀'), ('Sesión de Yoga', '🧘♀️'), ('Terapia de Sonido', '🎧')
     ]
     
     beneficios = [
-        'Aliviar el Insomnio', 'Reducir la Ansiedad', 'Mejorar la Concentración',
-        'Relajación Profunda', 'Conexión con la Naturaleza', 'Sueño Reparador',
-        'Calma Interior'
+        'Sueño Profundo Garantizado', 'Reducción de Ansiedad', 'Concentración Máxima',
+        'Relajación Profunda', 'Conexión con la Naturaleza', 'Sueño Reparador Premium',
+        'Equilibrio Interior', 'Armonía Mental', 'Desintoxicación Digital',
+        'Renovación Energética', 'Claridad Mental', 'Paz Interior Absoluta'
     ]
 
     ubicacion_tipo = 'default'
@@ -340,7 +342,10 @@ def generar_titulo(nombre_video, categoria):
         f"{ubicacion} • Sonidos de {categoria.capitalize()} para {actividad} {emoji_act} | {beneficio}",
         f"{actividad} {emoji_act} con Sonidos de {categoria.capitalize()} en {ubicacion} | {beneficio}",
         f"{beneficio} • {ubicacion} con Ambiente de {categoria.capitalize()} {emoji_act}",
-        f"Relájate en {ubicacion} • {categoria.capitalize()} para {actividad} {emoji_act} | {beneficio}"
+        f"Relájate en {ubicacion} • {categoria.capitalize()} para {actividad} {emoji_act} | {beneficio}",
+        f"Experiencia Premium: {categoria.capitalize()} en {ubicacion} para {actividad} {emoji_act} | {beneficio}",
+        f"{beneficio} • {actividad} {emoji_act} con Sonidos de {categoria.capitalize()} en {ubicacion}",
+        f"Vive la Experiencia: {ubicacion} con {categoria.capitalize()} para {actividad} {emoji_act} | {beneficio}"
     ]
     
     return random.choice(plantillas)
@@ -415,7 +420,7 @@ def manejar_transmision(stream_data, youtube):
             raise Exception("No se pudo iniciar la transmisión")
         
         tiempo_inicio = datetime.utcnow()
-        while (datetime.utcnow() - tiempo_inicio) < timedelta(hours=8):
+        while (datetime.utcnow() - tiempo_inicio) < timedelta(hours=12):  # Cambiado a 12 horas
             if proceso.poll() is not None:
                 logging.warning("⚡ Reconectando FFmpeg...")
                 proceso.kill()
@@ -461,7 +466,7 @@ def ciclo_transmision():
                     "audio": audio,
                     "broadcast_id": stream_info['broadcast_id'],
                     "stream_id": stream_info['stream_id'],
-                    "end_time": stream_info['scheduled_start'] + timedelta(hours=8)
+                    "end_time": stream_info['scheduled_start'] + timedelta(hours=12)  # Cambiado a 12 horas
                 }
 
                 threading.Thread(
